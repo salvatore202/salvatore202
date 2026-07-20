@@ -1,8 +1,10 @@
 <div align="center">
+  
+<img src="docs/Banner.jpg" width="100%" alt="Banner Salvatore Raiola"/>
 
 # Hi, I'm Salvatore Raiola 👋
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Computer+Engineering+Student;Autonomous+Systems+%26+Robotics;Formula+Student+Driverless+%40+UniNa+Corse" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Robotics/Automation+Engineering+Matser+Student;Autonomous+Systems+%26+Robotics;Formula+Student+Driverless+%40+UniNa+Corse" alt="Typing SVG" />
 
 [![UniNa Corse](https://img.shields.io/badge/UniNa_Corse-Autonomous_System-1a1a2e?style=flat-square)](https://uninacorse.com/)
 [![Federico II](https://img.shields.io/badge/Federico_II-Naples%2C_Italy-1a1a2e?style=flat-square)](https://www.unina.it/)
@@ -13,7 +15,7 @@
 
 ## About Me
 
-I'm a Computer/Software Engineering student at the **Università degli Studi di Napoli Federico II**. I'm part of the **Autonomous System** division of **[UniNa Corse](https://uninacorse.com/)**, the university's official Formula Student racing team, which competes internationally in the Driverless class and has multiple podium finishes to its name.
+I'm a Robotics/Automation Engineering student at the **Università degli Studi di Napoli Federico II**. I'm part of the **Autonomous System** division of **[UniNa Corse](https://uninacorse.com/)**, the university's official Formula Student racing team, which competes internationally in the Driverless class and has multiple podium finishes to its name.
 
 My project work spans autonomous perception & localization, systems and network programming, software engineering, and control theory — with a growing focus on **SLAM, sensor fusion, and real-time robotics software**.
 
@@ -24,8 +26,57 @@ My project work spans autonomous perception & localization, systems and network 
 A **multi-pipeline SLAM stack** for UniNa Corse's driverless race car, benchmarking three parallel approaches to cone-based track localization:
 
 - **Graph SLAM** with an **iSAM2** backend for incremental factor-graph optimization
-- **LiDAR odometry**, evaluated as a standalone localization source
-- **Visual EKF SLAM**, fusing camera-based cone detections through an Extended Kalman Filter
+
+## Architettura del Sistema
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        I/O THREAD                           │
+│  (ROS2 MultiThreadedExecutor — callbacks ROS2)              │
+│                                                             │
+│   ZED Callback ──┐                                          │
+│   LiDAR Callback─┼──► iotofe_landmarks_queue (SPSC)         │
+│   Odom Callback ─┘──► iotofe_pose_queue      (SPSC)         │
+└─────────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+┌─────────────────────────────────────────────────────────────┐
+│               FRONT-END THREAD  (~400 Hz)                   │
+│  (pthread POSIX — priorità SCHED_FIFO 80)                   │
+│                                                             │
+│   • Temporal Sync ZED/LiDAR ↔ Odom (buffer + match)         │
+│   • Sensor Fusion ZED + LiDAR (merge frame)                 │
+│   • Dead Reckoning (propagazione covarianza EKF-like)       │
+│   • Data Association (Mahalanobis + fallback euclideo)      │
+│   • Waiting List (soglia N osservazioni prima di mappare)   │
+│                                                             │
+│   ──► fetobe_queue (SPSC) ──► Back-End                      │
+│   ◄── betofe_updates_queue (SPSC) ◄── Back-End              │
+└─────────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+┌─────────────────────────────────────────────────────────────┐
+│               BACK-END THREAD  (~40 Hz)                     │
+│  (pthread POSIX — priorità SCHED_FIFO 40)                   │
+│                                                             │
+│   • iSAM2 (fattorizzazione Cholesky, relinearize skip)      │
+│   • BetweenFactor (odometria con Huber robust noise)        │
+│   • BearingRangeFactor (ZED σ_b=0.20, σ_r=0.80)             │
+│   • BearingRangeFactor (LiDAR σ_b=0.02, σ_r=0.05)           │
+│   • Estrazione covarianza marginale pose + landmarks        │
+│                                                             │
+│   ──► betofe_updates_queue (SPSC) ──► Front-End             │
+│   ──► betoio_pose_queue    (SPSC) ──► I/O                   │
+│   ──► betoio_landmarks_queue (SPSC) ──► I/O                 │
+└─────────────────────────────────────────────────────────────┘
+```
+
+
+## Presentazione del Sistema
+
+<p align="center">
+  <img src="docs/Schermata del 2026-06-29 12-27-36.png" width="120%"/>
+</p>
 
 System validation is carried out through **ROS bag playback in Foxglove Studio**, with a focus on landmark/cone position estimation, data association stability, camera–LiDAR extrinsic calibration, and loop-closure quality.
 
