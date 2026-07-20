@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="docs/Banner.jpg" width="100%"/>
+<img src="docs/Banner.png" width="150%"/>
 
 # Hi, I'm Salvatore Raiola 👋
 
