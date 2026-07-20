@@ -4,7 +4,7 @@
 
 # Hi, I'm Salvatore Raiola 👋
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Robotics/Automation+Engineering+Matser+Student;Autonomous+Systems+%26+Robotics;Formula+Student+Driverless+%40+UniNa+Corse" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Robotics/Automation+Engineering+Master+Student;Autonomous+Systems+%26+Robotics;Formula+Student+Driverless+%40+UniNa+Corse" alt="Typing SVG" />
 
 [![UniNa Corse](https://img.shields.io/badge/UniNa_Corse-Autonomous_System-1a1a2e?style=flat-square)](https://uninacorse.com/)
 [![Federico II](https://img.shields.io/badge/Federico_II-Naples%2C_Italy-1a1a2e?style=flat-square)](https://www.unina.it/)
@@ -15,7 +15,7 @@
 
 ## About Me
 
-I'm a Robotics/Automation Engineering student at the **Università degli Studi di Napoli Federico II**. I'm part of the **Autonomous System** division of **[UniNa Corse](https://uninacorse.com/)**, the university's official Formula Student racing team, which competes internationally in the Driverless class and has multiple podium finishes to its name.
+I'm a Robotics/Automation Engineering Master student at the **Università degli Studi di Napoli Federico II**. I'm part of the **Autonomous System** division of **[UniNa Corse](https://uninacorse.com/)**, the university's official Formula Student racing team, which competes internationally in the Driverless class and has multiple podium finishes to its name.
 
 My project work spans autonomous perception & localization, systems and network programming, software engineering, and control theory — with a growing focus on **SLAM, sensor fusion, and real-time robotics software**.
 
@@ -150,9 +150,8 @@ System validation is carried out through **ROS bag playback in Foxglove Studio**
 
 ## 📫 Let's Connect
 
-- 📧 Email: `your.email@example.com`
-- 💼 LinkedIn: `linkedin.com/in/your-profile`
-- 🌐 Portfolio: `your-website.com`
+- 📧 Email: `salvatoreraiola2002@gmail.com`
+- 💼 LinkedIn: `https://it.linkedin.com/in/salvatore-raiola-0b7329363/en`
 
 > *(placeholders — swap in your real contact details)*
 
