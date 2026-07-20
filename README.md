@@ -2,12 +2,12 @@
   
 <img src="docs/Banner.png" width="150%"/>
 
-# Hi, I'm Salvatore Raiola 👋
+# Hi, I'm Salvatore 
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Robotics/Automation+Engineering+Master+Student;Autonomous+Systems+%26+Robotics;Formula+Student+Driverless+%40+UniNa+Corse" alt="Typing SVG" />
 
-[![UniNa Corse](https://img.shields.io/badge/UniNa_Corse-Autonomous_System-1a1a2e?style=flat-square)](https://uninacorse.com/)
-[![Federico II](https://img.shields.io/badge/Federico_II-Naples%2C_Italy-1a1a2e?style=flat-square)](https://www.unina.it/)
+[![UniNa Corse](https://img.shields.io/badge/UniNa_Corse-Autonomous_System-b30000?style=for-the-badge&logo=ros&logoColor=white)](https://uninacorse.com/)
+[![Federico II](https://img.shields.io/badge/Federico_II-Naples_Italy-003366?style=for-the-badge)](https://www.unina.it/)
 
 </div>
 
