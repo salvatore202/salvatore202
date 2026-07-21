@@ -1,8 +1,6 @@
 <div align="center">
   
-<img src="docs/Banner.png" width="150%"/>
-
-# Hi, I'm Salvatore 
+<img src="docs/Banner_mod_2.png" width="150%"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Robotics/Automation+Engineering+Master+Student;Autonomous+Systems+%26+Robotics;Formula+Student+Driverless+%40+UniNa+Corse" alt="Typing SVG" />
 
@@ -27,28 +25,28 @@ A **multi-pipeline SLAM stack** for UniNa Corse's driverless race car, benchmark
 
 - **Graph SLAM** with an **iSAM2** backend for incremental factor-graph optimization
 
-## Architettura del Sistema
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        I/O THREAD                           │
-│  (ROS2 MultiThreadedExecutor — callbacks ROS2)              │
+│                         I/O THREAD                          │
+│       (ROS2 MultiThreadedExecutor — ROS2 callbacks)         │
 │                                                             │
 │   ZED Callback ──┐                                          │
-│   LiDAR Callback─┼──► iotofe_landmarks_queue (SPSC)         │
-│   Odom Callback ─┘──► iotofe_pose_queue      (SPSC)         │
+│   LiDAR Callback─┼──► iotofe_landmarks_queue (SPSC)          │
+│   Odom Callback ─┘──► iotofe_pose_queue      (SPSC)          │
 └─────────────────────────────────────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────────┐
-│               FRONT-END THREAD  (~400 Hz)                   │
-│  (pthread POSIX — priorità SCHED_FIFO 80)                   │
+│                FRONT-END THREAD  (~400 Hz)                  │
+│          (POSIX pthread — SCHED_FIFO priority 80)           │
 │                                                             │
-│   • Temporal Sync ZED/LiDAR ↔ Odom (buffer + match)         │
-│   • Sensor Fusion ZED + LiDAR (merge frame)                 │
-│   • Dead Reckoning (propagazione covarianza EKF-like)       │
-│   • Data Association (Mahalanobis + fallback euclideo)      │
-│   • Waiting List (soglia N osservazioni prima di mappare)   │
+│   • ZED/LiDAR ↔ Odom Temporal Sync (buffer + match)         │
+│   • ZED + LiDAR Sensor Fusion (frame merging)               │
+│   • Dead Reckoning (EKF-like covariance propagation)        │
+│   • Data Association (Mahalanobis + Euclidean fallback)     │
+│   • Waiting List (N observations threshold before mapping)  │
 │                                                             │
 │   ──► fetobe_queue (SPSC) ──► Back-End                      │
 │   ◄── betofe_updates_queue (SPSC) ◄── Back-End              │
@@ -56,23 +54,23 @@ A **multi-pipeline SLAM stack** for UniNa Corse's driverless race car, benchmark
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────────┐
-│               BACK-END THREAD  (~40 Hz)                     │
-│  (pthread POSIX — priorità SCHED_FIFO 40)                   │
+│                 BACK-END THREAD  (~40 Hz)                   │
+│          (POSIX pthread — SCHED_FIFO priority 40)           │
 │                                                             │
-│   • iSAM2 (fattorizzazione Cholesky, relinearize skip)      │
-│   • BetweenFactor (odometria con Huber robust noise)        │
+│   • iSAM2 (Cholesky factorization, relinearization skip)    │
+│   • BetweenFactor (odometry with Huber robust noise)        │
 │   • BearingRangeFactor (ZED σ_b=0.20, σ_r=0.80)             │
 │   • BearingRangeFactor (LiDAR σ_b=0.02, σ_r=0.05)           │
-│   • Estrazione covarianza marginale pose + landmarks        │
+│   • Pose + landmarks marginal covariance extraction         │
 │                                                             │
 │   ──► betofe_updates_queue (SPSC) ──► Front-End             │
-│   ──► betoio_pose_queue    (SPSC) ──► I/O                   │
-│   ──► betoio_landmarks_queue (SPSC) ──► I/O                 │
+│   ──► betoio_pose_queue       (SPSC) ──► I/O                │
+│   ──► betoio_landmarks_queue  (SPSC) ──► I/O                │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 
-## Presentazione del Sistema
+## System Overview
 
 <p align="center">
   <img src="docs/Schermata del 2026-06-29 12-27-36.png" width="120%"/>
