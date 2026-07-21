@@ -151,7 +151,7 @@ System validation is carried out through **ROS bag playback in Foxglove Studio**
 ## 📫 Let's Connect
 
 - 📧 Email: `salvatoreraiola2002@gmail.com`
-- 💼 LinkedIn: `https://it.linkedin.com/in/salvatore-raiola-0b7329363/en`
+- 💼 LinkedIn: `https://it.linkedin.com/in/salvatore-raiola-0b7329363`
 
 > *(placeholders — swap in your real contact details)*
 
