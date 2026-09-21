@@ -33,8 +33,8 @@ A **multi-pipeline SLAM stack** for UniNa Corse's driverless race car, benchmark
 │       (ROS2 MultiThreadedExecutor — ROS2 callbacks)         │
 │                                                             │
 │   ZED Callback ──┐                                          │
-│   LiDAR Callback─┼──► iotofe_landmarks_queue (SPSC)          │
-│   Odom Callback ─┘──► iotofe_pose_queue      (SPSC)          │
+│   LiDAR Callback─┼──► iotofe_landmarks_queue (SPSC)         │
+│   Odom Callback ─┘──► iotofe_pose_queue      (SPSC)         │
 └─────────────────────────────────────────────────────────────┘
                           │
                           ▼
