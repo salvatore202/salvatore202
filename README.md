@@ -84,57 +84,51 @@ System validation is carried out through **ROS bag playback in Foxglove Studio**
 
 **Languages**
 
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="48" alt="C++" /><br /><sub><b>C++</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="48" alt="C" /><br /><sub><b>C</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=py" width="48" alt="Python" /><br /><sub><b>Python</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java" width="48" alt="Java" /><br /><sub><b>Java</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=matlab" width="48" alt="MATLAB" /><br /><sub><b>MATLAB</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=bash" width="48" alt="Bash" /><br /><sub><b>Bash</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mysql" width="48" alt="MySQL" /><br /><sub><b>MySQL</b></sub></td>
-  </tr>
-</table>
+<p>
+<img src="https://cdn.simpleicons.org/cplusplus/00599C" height="28" align="middle" alt="C++" />&nbsp;<b>C++</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/c/659AD2" height="28" align="middle" alt="C" />&nbsp;<b>C</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/python/3776AB" height="28" align="middle" alt="Python" />&nbsp;<b>Python</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/openjdk/ED8B00" height="28" align="middle" alt="Java" />&nbsp;<b>Java</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/matlab/0076A8" height="28" align="middle" alt="MATLAB" />&nbsp;<b>MATLAB</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="28" align="middle" alt="Bash" />&nbsp;<b>Bash</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/mysql/4479A1" height="28" align="middle" alt="MySQL" />&nbsp;<b>MySQL</b>
+</p>
 
 **Robotics & Autonomous Systems**
 
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ros" width="48" alt="ROS 2" /><br /><sub><b>ROS 2</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ubuntu" width="48" alt="Linux / Ubuntu" /><br /><sub><b>Linux</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" width="48" alt="Git" /><br /><sub><b>Git</b></sub></td>
-  </tr>
-</table>
+<p>
+<img src="https://cdn.simpleicons.org/ros/6C8EBF" height="28" align="middle" alt="ROS 2" />&nbsp;<b>ROS 2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/ubuntu/E95420" height="28" align="middle" alt="Linux / Ubuntu" />&nbsp;<b>Linux / Ubuntu</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/git/F05032" height="28" align="middle" alt="Git" />&nbsp;<b>Git</b>
+</p>
 
-![Graph SLAM](https://img.shields.io/badge/Graph_SLAM-2F80ED?style=flat-square)
-![iSAM2](https://img.shields.io/badge/iSAM2-2F80ED?style=flat-square)
-![EKF](https://img.shields.io/badge/EKF-2F80ED?style=flat-square)
-![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-2F80ED?style=flat-square)
-![LiDAR & Camera](https://img.shields.io/badge/LiDAR_%26_Camera-2F80ED?style=flat-square)
-![Foxglove Studio](https://img.shields.io/badge/Foxglove_Studio-2F80ED?style=flat-square)
+![Graph SLAM](https://img.shields.io/badge/Graph_SLAM-DCE1E7?style=flat-square)
+![iSAM2](https://img.shields.io/badge/iSAM2-DCE1E7?style=flat-square)
+![EKF](https://img.shields.io/badge/EKF-DCE1E7?style=flat-square)
+![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-DCE1E7?style=flat-square)
+![LiDAR & Camera](https://img.shields.io/badge/LiDAR_%26_Camera-DCE1E7?style=flat-square)
+![Foxglove Studio](https://img.shields.io/badge/Foxglove_Studio-DCE1E7?style=flat-square)
 
 **Backend, Networking & Middleware**
 
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=flask" width="48" alt="Flask" /><br /><sub><b>Flask</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb" width="48" alt="MongoDB" /><br /><sub><b>MongoDB</b></sub></td>
-  </tr>
-</table>
+<p>
+<img src="https://cdn.simpleicons.org/flask/7D8590" height="28" align="middle" alt="Flask" />&nbsp;<b>Flask</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/mongodb/47A248" height="28" align="middle" alt="MongoDB" />&nbsp;<b>MongoDB</b>
+</p>
 
-![gRPC](https://img.shields.io/badge/gRPC-2F80ED?style=flat-square)
-![ActiveMQ](https://img.shields.io/badge/ActiveMQ-2F80ED?style=flat-square)
-![STOMP](https://img.shields.io/badge/STOMP-2F80ED?style=flat-square)
-![WebSockets](https://img.shields.io/badge/WebSockets-2F80ED?style=flat-square)
-![HTTP/2](https://img.shields.io/badge/HTTP%2F2-2F80ED?style=flat-square)
+![gRPC](https://img.shields.io/badge/gRPC-DCE1E7?style=flat-square)
+![ActiveMQ](https://img.shields.io/badge/ActiveMQ-DCE1E7?style=flat-square)
+![STOMP](https://img.shields.io/badge/STOMP-DCE1E7?style=flat-square)
+![WebSockets](https://img.shields.io/badge/WebSockets-DCE1E7?style=flat-square)
+![HTTP/2](https://img.shields.io/badge/HTTP%2F2-DCE1E7?style=flat-square)
 
 **Software Engineering & Control**
 
-![UML](https://img.shields.io/badge/UML-2F80ED?style=flat-square)
-![Design Patterns](https://img.shields.io/badge/Design_Patterns-2F80ED?style=flat-square)
-![JUnit 5](https://img.shields.io/badge/JUnit_5-2F80ED?style=flat-square)
-![Real-Time Systems](https://img.shields.io/badge/Real--Time_Systems-2F80ED?style=flat-square)
-![Control Theory](https://img.shields.io/badge/Control_Theory-2F80ED?style=flat-square)
+![UML](https://img.shields.io/badge/UML-DCE1E7?style=flat-square)
+![Design Patterns](https://img.shields.io/badge/Design_Patterns-DCE1E7?style=flat-square)
+![JUnit 5](https://img.shields.io/badge/JUnit_5-DCE1E7?style=flat-square)
+![Real-Time Systems](https://img.shields.io/badge/Real--Time_Systems-DCE1E7?style=flat-square)
+![Control Theory](https://img.shields.io/badge/Control_Theory-DCE1E7?style=flat-square)
 
 ---
 
