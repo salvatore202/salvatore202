@@ -85,50 +85,50 @@ System validation is carried out through **ROS bag playback in Foxglove Studio**
 **Languages**
 
 <p>
-<img src="https://cdn.simpleicons.org/cplusplus/00599C" height="28" align="middle" alt="C++" />&nbsp;<b>C++</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/c/659AD2" height="28" align="middle" alt="C" />&nbsp;<b>C</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/python/3776AB" height="28" align="middle" alt="Python" />&nbsp;<b>Python</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/openjdk/ED8B00" height="28" align="middle" alt="Java" />&nbsp;<b>Java</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/matlab/0076A8" height="28" align="middle" alt="MATLAB" />&nbsp;<b>MATLAB</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="28" align="middle" alt="Bash" />&nbsp;<b>Bash</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/mysql/4479A1" height="28" align="middle" alt="MySQL" />&nbsp;<b>MySQL</b>
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cplusplus/cplusplus-original.svg" height="28" align="middle" alt="C++" />&nbsp;<b>C++</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/c/c-original.svg" height="28" align="middle" alt="C" />&nbsp;<b>C</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/python/python-original.svg" height="28" align="middle" alt="Python" />&nbsp;<b>Python</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/java/java-original.svg" height="28" align="middle" alt="Java" />&nbsp;<b>Java</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/matlab/matlab-original.svg" height="28" align="middle" alt="MATLAB" />&nbsp;<b>MATLAB</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/gnubash/4EAA25"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/bash/bash-original.svg" height="28" align="middle" alt="Bash" /></picture>&nbsp;<b>Bash</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/mysql/mysql-original.svg" height="28" align="middle" alt="MySQL" />&nbsp;<b>MySQL</b>
 </p>
 
 **Robotics & Autonomous Systems**
 
 <p>
-<img src="https://cdn.simpleicons.org/ros/6C8EBF" height="28" align="middle" alt="ROS 2" />&nbsp;<b>ROS 2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/ubuntu/E95420" height="28" align="middle" alt="Linux / Ubuntu" />&nbsp;<b>Linux / Ubuntu</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/git/F05032" height="28" align="middle" alt="Git" />&nbsp;<b>Git</b>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ros/FFFFFF"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ros/ros-original.svg" height="28" align="middle" alt="ROS 2" /></picture>&nbsp;<b>ROS 2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ubuntu/ubuntu-original.svg" height="28" align="middle" alt="Linux / Ubuntu" />&nbsp;<b>Linux / Ubuntu</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/git/git-original.svg" height="28" align="middle" alt="Git" />&nbsp;<b>Git</b>
 </p>
 
-![Graph SLAM](https://img.shields.io/badge/Graph_SLAM-DCE1E7?style=flat-square)
-![iSAM2](https://img.shields.io/badge/iSAM2-DCE1E7?style=flat-square)
-![EKF](https://img.shields.io/badge/EKF-DCE1E7?style=flat-square)
-![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-DCE1E7?style=flat-square)
-![LiDAR & Camera](https://img.shields.io/badge/LiDAR_%26_Camera-DCE1E7?style=flat-square)
-![Foxglove Studio](https://img.shields.io/badge/Foxglove_Studio-DCE1E7?style=flat-square)
+![Graph SLAM](https://img.shields.io/badge/Graph_SLAM-30363D?style=for-the-badge)
+![iSAM2](https://img.shields.io/badge/iSAM2-30363D?style=for-the-badge)
+![EKF](https://img.shields.io/badge/EKF-30363D?style=for-the-badge)
+![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-30363D?style=for-the-badge)
+![LiDAR & Camera](https://img.shields.io/badge/LiDAR_%26_Camera-30363D?style=for-the-badge)
+![Foxglove Studio](https://img.shields.io/badge/Foxglove_Studio-30363D?style=for-the-badge)
 
 **Backend, Networking & Middleware**
 
 <p>
-<img src="https://cdn.simpleicons.org/flask/7D8590" height="28" align="middle" alt="Flask" />&nbsp;<b>Flask</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/mongodb/47A248" height="28" align="middle" alt="MongoDB" />&nbsp;<b>MongoDB</b>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/flask/FFFFFF"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/flask/flask-original.svg" height="28" align="middle" alt="Flask" /></picture>&nbsp;<b>Flask</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/mongodb/mongodb-original.svg" height="28" align="middle" alt="MongoDB" />&nbsp;<b>MongoDB</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/grpc/grpc-original.svg" height="28" align="middle" alt="gRPC" />&nbsp;<b>gRPC</b>
 </p>
 
-![gRPC](https://img.shields.io/badge/gRPC-DCE1E7?style=flat-square)
-![ActiveMQ](https://img.shields.io/badge/ActiveMQ-DCE1E7?style=flat-square)
-![STOMP](https://img.shields.io/badge/STOMP-DCE1E7?style=flat-square)
-![WebSockets](https://img.shields.io/badge/WebSockets-DCE1E7?style=flat-square)
-![HTTP/2](https://img.shields.io/badge/HTTP%2F2-DCE1E7?style=flat-square)
+![ActiveMQ](https://img.shields.io/badge/ActiveMQ-30363D?style=for-the-badge)
+![STOMP](https://img.shields.io/badge/STOMP-30363D?style=for-the-badge)
+![WebSockets](https://img.shields.io/badge/WebSockets-30363D?style=for-the-badge)
+![HTTP/2](https://img.shields.io/badge/HTTP%2F2-30363D?style=for-the-badge)
 
 **Software Engineering & Control**
 
-![UML](https://img.shields.io/badge/UML-DCE1E7?style=flat-square)
-![Design Patterns](https://img.shields.io/badge/Design_Patterns-DCE1E7?style=flat-square)
-![JUnit 5](https://img.shields.io/badge/JUnit_5-DCE1E7?style=flat-square)
-![Real-Time Systems](https://img.shields.io/badge/Real--Time_Systems-DCE1E7?style=flat-square)
-![Control Theory](https://img.shields.io/badge/Control_Theory-DCE1E7?style=flat-square)
+![UML](https://img.shields.io/badge/UML-30363D?style=for-the-badge)
+![Design Patterns](https://img.shields.io/badge/Design_Patterns-30363D?style=for-the-badge)
+![JUnit 5](https://img.shields.io/badge/JUnit_5-30363D?style=for-the-badge)
+![Real-Time Systems](https://img.shields.io/badge/Real--Time_Systems-30363D?style=for-the-badge)
+![Control Theory](https://img.shields.io/badge/Control_Theory-30363D?style=for-the-badge)
 
 ---
 
