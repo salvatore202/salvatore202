@@ -84,41 +84,57 @@ System validation is carried out through **ROS bag playback in Foxglove Studio**
 
 **Languages**
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="48" alt="C++" /><br /><sub><b>C++</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="48" alt="C" /><br /><sub><b>C</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=py" width="48" alt="Python" /><br /><sub><b>Python</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java" width="48" alt="Java" /><br /><sub><b>Java</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=matlab" width="48" alt="MATLAB" /><br /><sub><b>MATLAB</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=bash" width="48" alt="Bash" /><br /><sub><b>Bash</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mysql" width="48" alt="MySQL" /><br /><sub><b>MySQL</b></sub></td>
+  </tr>
+</table>
 
 **Robotics & Autonomous Systems**
 
-![ROS2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
-![SLAM](https://img.shields.io/badge/SLAM-Graph_SLAM_%7C_iSAM2_%7C_EKF-orange?style=flat-square)
-![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-LiDAR_%7C_Camera-orange?style=flat-square)
-![Foxglove](https://img.shields.io/badge/Foxglove_Studio-6E56CF?style=flat-square)
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ros" width="48" alt="ROS 2" /><br /><sub><b>ROS 2</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ubuntu" width="48" alt="Linux / Ubuntu" /><br /><sub><b>Linux</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" width="48" alt="Git" /><br /><sub><b>Git</b></sub></td>
+  </tr>
+</table>
+
+![Graph SLAM](https://img.shields.io/badge/Graph_SLAM-2F80ED?style=flat-square)
+![iSAM2](https://img.shields.io/badge/iSAM2-2F80ED?style=flat-square)
+![EKF](https://img.shields.io/badge/EKF-2F80ED?style=flat-square)
+![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-2F80ED?style=flat-square)
+![LiDAR & Camera](https://img.shields.io/badge/LiDAR_%26_Camera-2F80ED?style=flat-square)
+![Foxglove Studio](https://img.shields.io/badge/Foxglove_Studio-2F80ED?style=flat-square)
 
 **Backend, Networking & Middleware**
 
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Messaging](https://img.shields.io/badge/Messaging-ActiveMQ_%7C_STOMP-C13930?style=flat-square)
-![Protocols](https://img.shields.io/badge/Protocols-WebSockets_%7C_HTTP%2F2-666666?style=flat-square)
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=flask" width="48" alt="Flask" /><br /><sub><b>Flask</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb" width="48" alt="MongoDB" /><br /><sub><b>MongoDB</b></sub></td>
+  </tr>
+</table>
 
-**Software Engineering**
+![gRPC](https://img.shields.io/badge/gRPC-2F80ED?style=flat-square)
+![ActiveMQ](https://img.shields.io/badge/ActiveMQ-2F80ED?style=flat-square)
+![STOMP](https://img.shields.io/badge/STOMP-2F80ED?style=flat-square)
+![WebSockets](https://img.shields.io/badge/WebSockets-2F80ED?style=flat-square)
+![HTTP/2](https://img.shields.io/badge/HTTP%2F2-2F80ED?style=flat-square)
 
-![UML](https://img.shields.io/badge/UML-Visual_Paradigm-blue?style=flat-square)
-![Design Patterns](https://img.shields.io/badge/Design_Patterns-BCE_%7C_DAO-blue?style=flat-square)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+**Software Engineering & Control**
 
-**Systems & Control**
-
-![Linux](https://img.shields.io/badge/Linux%2FUbuntu-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Real-Time](https://img.shields.io/badge/Real_Time_Systems-333333?style=flat-square)
-![Control Theory](https://img.shields.io/badge/Control_Theory-Multivariable_%26_State_Space-333333?style=flat-square)
+![UML](https://img.shields.io/badge/UML-2F80ED?style=flat-square)
+![Design Patterns](https://img.shields.io/badge/Design_Patterns-2F80ED?style=flat-square)
+![JUnit 5](https://img.shields.io/badge/JUnit_5-2F80ED?style=flat-square)
+![Real-Time Systems](https://img.shields.io/badge/Real--Time_Systems-2F80ED?style=flat-square)
+![Control Theory](https://img.shields.io/badge/Control_Theory-2F80ED?style=flat-square)
 
 ---
 
@@ -139,10 +155,11 @@ System validation is carried out through **ROS bag playback in Foxglove Studio**
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=salvatore202&show_icons=true&theme=default&hide_border=true&count_private=false" width="48%" alt="Salvatore's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salvatore202&layout=compact&theme=default&hide_border=true" width="48%" alt="Top languages" />
-</p>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=salvatore202&theme=transparent" alt="Profile details" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=salvatore202&theme=transparent" alt="GitHub stats" /><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salvatore202&theme=transparent" alt="Repos per language" />
+</div>
 
 ---
 
